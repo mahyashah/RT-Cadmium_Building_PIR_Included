@@ -187,8 +187,8 @@ struct E3L2_out : public cadmium::out_port<bool>{};
 
     cadmium::dynamic::translate::make_EIC<emerg_switch_in, Fire_Alarm_defs::inp>("Fire_Alarm_Controller"),
     cadmium::dynamic::translate::make_EIC<emerg_temp_in, Fire_Sen_defs::inp>("Fire_Sensor"),
-    cadmium::dynamic::translate::make_EIC<PIR_1_1, PIR_Sensor_Controller_defs::inp>("PIR_1"),  
-    cadmium::dynamic::translate::make_EIC<PIR_2_1, PIR_Sensor_Controller_defs::inp>("PIR_2")     
+    cadmium::dynamic::translate::make_EIC<PIR_1_1, PIR_Sensor_Controller_defs::inp>("PIR_Sensor_Controller_1"),  
+    cadmium::dynamic::translate::make_EIC<PIR_2_1, PIR_Sensor_Controller_defs::inp>("PIR_Sensor_Controller_2")     
   };
   cadmium::dynamic::modeling::EOCs eocs_EMERG_SYS = {
      cadmium::dynamic::translate::make_EOC<LED_defs::out_r, emerg_E1L1_out>("Emergency_LED_Controller1"),
