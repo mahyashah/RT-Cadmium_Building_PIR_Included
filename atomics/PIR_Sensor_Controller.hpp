@@ -1,5 +1,5 @@
 /**
-* By: Harish & Surya Krishna
+* By: Mahya
 * ARSLab - Carleton University
 */
 #ifndef BOOST_SIMULATION_PDEVS_PIR_SENSOR_CONTROLLER_HPP
