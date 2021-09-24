@@ -1,5 +1,5 @@
 This folder contains the Building Controller model implemented in ECadmium
-For running this model, I had cadmium version 3, 29 June 2007 installed.
+For running this model, cadmium was used which is also available in this repository.
 To download the whole cadmium environment run the following commad in your terminal by pressing "Ctrl+alt+t" after installing the required packages.
 cd CADMIUM/
 git clone https://github.com/SimulationEverywhere/Cadmium-Simulation-Environment.git
